@@ -2,7 +2,7 @@ from django.shortcuts import redirect, render
 from django.template import loader
 import logging
 from django.views.decorators.cache import cache_control
-############
+######################
 from .forms import NewUserForm
 from django.contrib import messages
 from django.http import HttpResponse, response
