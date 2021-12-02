@@ -11,79 +11,60 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
+
+
 </head>
-<br> 
-<body>
 
-  <b><font face="Palatino" size="25px" style="float:left; margin-left: 45.5%" color="#FF7A59">Kling</font></b>
-  <a href="{% url 'logout' %}" type= "button" class= "button" style="float:right;">Logout</a><br>
-<br><hr>
-{% block content %}
-{% if user.is_authenticated %}
-
-Hi {{ user.username }}!
+<h1 >Kling</h1>
+<br><br>
 <div id=tk>
   <form action="" method="">
     <div id="styleform">
       <div class="inline-block">
-        <b><label class="block" for="NAME">Source IP</label></b>
+        <label class="block" for="NAME">Source_Ip</label>
         <input class="block" type="text" id="NAME" size="20">
       </div>
       <div class="inline-block">
-        <b><label class="block" for="no">Source Password</label></b>
-        <input class="block" type="password" id="no" , size="20">
+        <label class="block" for="no">Source_Port</label>
+        <input class="block" type="text" id="no" , size="20">
       </div>
 
       <div class="inline-block">
-        <b><label for="age" class="block" >Destination IP</label></b>
+        <label for="age" class="block" >Destination IP</label>
         <input type="text" class="block"  id="age" size="20">
       </div>
       <div class="inline-block">
-        <b><label class="block" for="S_NO:">Destination Ports</label></b>
+        <label class="block" for="S_NO:">Destination Ports</label>
         <input type="text" class="block"  id="S_NO:" size="20">
       </div>
     </div>
   </form>
-  <br>
-  <center><label for="file"> <pre>      Loading: </pre></label></center>
-  <center><progress id="file" value="32" max="100"> 32% </progress></center>
-  <br>
-  <center><a href="#Submit" class= "button">Submit</a><br></center>
 </div>
-<br><br>
-<br>
-<center><output class="block" type="text" id="Result" size="136" ></center>
 
+
+<a class = "ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini" href="http://127.0.0.1:8000/kling" style="float:rightposition: absolute;"
+top: 40px; left: 40px;>Logout </a>
+</body>
 <style>
   div {
     display: inline-block;
-    margin-right:50px;
-    margin-left: 48px;
-    margin-top: 10px;
+    margin-right:20px;
+    margin-left: 40px;
+    
 }
 
 div label {
     display: block;
     margin-right: 40px;
-    font-family: Palatino
 }
 
-.button {
-  color: white;
-  padding: 8px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 20px;
-  background-color: #4CAF50;
-}
 </style>
-</body>
 
-{% else %}
-  <p>You are not logged in</p>
-  <a href="{% url 'login' %}">Log In</a>
-{% endif %}
-{% endblock %}
+
+
+
+  </body>
+
+
 </html>
 
