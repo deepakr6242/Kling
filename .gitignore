@@ -1,0 +1,9 @@
+# Ignore Logs
+logs
+*.log
+# Ignore the build directory
+.vs
+./.idea
+mylog.log
+.idea
+*.pyc
