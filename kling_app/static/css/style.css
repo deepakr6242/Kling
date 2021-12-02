@@ -14,4 +14,19 @@
     height: 100%;
   }
 }
+
+
+
+.logo{
+  width:  400 px;
+  height: 500 px;
+  margin-right: 200px;
+      }
+  
+  .logo img{
+  float: left;
+  margin-left: 0px 0px 0px 30px;
+  width: 3000px;
+  height: 300px;
+  }
 </style>
