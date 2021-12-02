@@ -4419,3 +4419,521 @@ Traceback (most recent call last):
   File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
     raise NoReverseMatch(msg)
 django.urls.exceptions.NoReverseMatch: Reverse for '/kling/' not found. '/kling/' is not a valid view function or pattern name.
+<<<<<<< HEAD
+DEBUG:root:start
+INFO:django.utils.autoreload:C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\manage.py changed, reloading.
+DEBUG:root:start
+INFO:django.utils.autoreload:C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\urls.py changed, reloading.
+DEBUG:root:start
+INFO:django.utils.autoreload:C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py changed, reloading.
+DEBUG:root:start
+DEBUG:root:start
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endcomment'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 36, in home
+    return render(request,"home.html")
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'endcomment'. Did you forget to register or load this tag?
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+WARNING:django.request:Not Found: /kling/admin/
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 36, in home
+    return render(request,"home.html")
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'static'. Did you forget to register or load this tag?
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 36, in home
+    return render(request,"home.html")
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'static'. Did you forget to register or load this tag?
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 36, in home
+    return render(request,"home.html")
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'static'. Did you forget to register or load this tag?
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 36, in home
+    return render(request,"home.html")
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'static'. Did you forget to register or load this tag?
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 36, in home
+    return render(request,"home.html")
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'static'. Did you forget to register or load this tag?
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+DEBUG:root:start
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py changed, reloading.
+DEBUG:root:start
+DEBUG:root:start
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:start
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\apanaik\OneDrive - Fiserv Corp\Desktop\Software Development\Kling Application\kling_app\views.py", line 28, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\apanaik\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+=======
+>>>>>>> 3ac96fe7d24af82ee48a04ada9b2f402abf7fff2
+DEBUG:root:start
+ERROR:django.request:Internal Server Error: /kling/home/
+Traceback (most recent call last):
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 31, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "C:\Users\f9pf5lw\Documents\kling\kling_app\views.py", line 34, in home
+    pass_db = user_check.values('password')[0]['password']
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+WARNING:django.request:Not Found: /kling/accounts/login/
+WARNING:django.request:Not Found: /kling/accounts/login/
+DEBUG:root:start
+INFO:django.utils.autoreload:C:\Users\f9pf5lw\Documents\kling\kling_app\urls.py changed, reloading.
+DEBUG:root:start
+INFO:django.utils.autoreload:C:\Users\f9pf5lw\Documents\kling\kling_app\urls.py changed, reloading.
+DEBUG:root:start
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /kling/accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'crispy_forms_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "C:\Users\f9pf5lw\AppData\Roaming\Python\Python38\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'crispy_forms_tags' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+WARNING:django.request:Not Found: /accounts/profile/
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /kling/accounts/login/
+WARNING:django.request:Not Found: /kling/admin
+WARNING:django.request:Not Found: /accounts/profile/
+INFO:django.utils.autoreload:C:\Users\f9pf5lw\Documents\kling\kling\settings.py changed, reloading.
+DEBUG:root:start
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.security.csrf:Forbidden (CSRF token missing or incorrect.): /kling/accounts/login/
+DEBUG:root:start
