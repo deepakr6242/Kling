@@ -52,7 +52,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'kling.urls'
-print(BASE_DIR)
+
 
 TEMPLATES = [
     {
