@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 'kling_app',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -129,3 +129,4 @@ STATIC_ROOT= 'kling_app/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'login'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
