@@ -30,7 +30,7 @@ def register_request(request):
     form_original = RegisterForm()
     print(form_errors)
     return render (request=request, template_name="register.html",context = {'form':form_original,
-                                                                             "form_errors":form_errors})
+                                                                             "form_errors": form_errors})
 
 
 
